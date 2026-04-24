@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Navigation Bar */
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  text-decoration: underline;
+  color: #003366;
+}
+
+/* Headers */
+h1 {
+  color: #2c3e50;
+  font-size: 2.2em;
+}
+
+h2 {
+  color: #34495e;
+  font-size: 1.6em;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #555;
+  font-size: 1.3em;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Images */
+img {
+  width: 300px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
